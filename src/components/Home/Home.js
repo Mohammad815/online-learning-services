@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div>
             <h1>I am Home</h1>
-            <Button  variant="success">Button</Button>
+            <Button  variant="success">click</Button>
         </div>
     );
 };
