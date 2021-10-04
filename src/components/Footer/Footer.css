@@ -1,0 +1,10 @@
+.blog{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+ul{
+    list-style: none;
+    text-align: left;
+}

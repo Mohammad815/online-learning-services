@@ -4,10 +4,10 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <Navbar bg="dark" variant="dark">
+        <Navbar bg="dark" variant="dark" className='na'>
         <Container>
-            <Nav className="me-auto">
-                <Stack direction="horizontal" gap={3}>
+            <Nav className="m-auto ">
+                <Stack direction="horizontal" gap={3} className='text-center'>
                     <NavLink to="/home"
                         activeStyle={{
                             fontWeight: "bold",
@@ -24,13 +24,21 @@ const Header = () => {
                         >
                         About Us
                      </NavLink>
-                     <NavLink to="/Service"
+                     <NavLink to="/service"
                         activeStyle={{
                             fontWeight: "bold",
                             color: "red"
                         }}
                         >
                         Service
+                     </NavLink>
+                     <NavLink to="/contact"
+                        activeStyle={{
+                            fontWeight: "bold",
+                            color: "red"
+                        }}
+                        >
+                        Conatact
                      </NavLink>
                 </Stack>
             </Nav>
