@@ -1,19 +1,22 @@
 import React from 'react';
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, Col } from 'react-bootstrap';
+import './Course.css'
 
 const Course = (props) => {
     const {title,img,Instructor,CourseFee}=props.course
     return (
-        <div className="border">
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={img} />
-            <Card.Body>
-                <Card.Title>Course Name : {title}</Card.Title>
-                <h3>Course Instructor Name: {Instructor}</h3>
-                <Button variant="primary">Details</Button>
-            </Card.Body>
-            </Card>
-        </div>
+        <Col>
+      <Card>
+        <Card.Img className='img' variant="top" src={img} />
+        <Card.Body>
+          <Card.Title>Course Name : {title}</Card.Title>
+          <Card.Text>
+            <h3>Instructor: {Instructor}</h3>
+            <h3>Course Fee: {CourseFee}</h3>
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
     );
 };
 

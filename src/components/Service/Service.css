@@ -1,4 +1,4 @@
-.conatainer{
+.card{
     display: grid;
     grid-template-columns: repeat(3,fr);
     grid-gap: 10px;
