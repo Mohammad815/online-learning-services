@@ -24,7 +24,7 @@ const Home = () => {
          <Row xs={1} md={2} className="g-4">
             
                 {
-                    courses.map(course=><CourseDemo course={course}></CourseDemo>)
+                    courses.map(course=><CourseDemo course={course} key={courses.courseId}></CourseDemo>)
                 }
             </Row>
          </div>
