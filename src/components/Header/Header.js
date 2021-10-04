@@ -12,6 +12,7 @@ const Header = () => {
                         activeStyle={{
                             fontWeight: "bold",
                             color: "red"
+                            
                         }}
                         >
                         Home

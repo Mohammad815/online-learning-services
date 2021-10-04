@@ -17,8 +17,10 @@ const Home = () => {
     console.log(courses)
     return (
         <div>
-            <div className="container">
+             <h3>Our Best Online Learning  and Carrier Track Program</h3>
+            <div className="container mt-3">
          <Row xs={1} md={2} className="g-4">
+            
                 {
                     courses.map(course=><CourseDemo course={course}></CourseDemo>)
                 }

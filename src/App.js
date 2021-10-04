@@ -8,6 +8,7 @@ import Header from './components/Header/Header';
 import Service from './components/Service/Service';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import DetailsCourse from './components/DetailsCourse/DetailsCourse';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route exact path="/service">
             <Service></Service>
+          </Route>
+          <Route exact path='/course/:id'>
+            <DetailsCourse></DetailsCourse>
           </Route>
           <Route exact path="/">
             <Home></Home>
