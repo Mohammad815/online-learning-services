@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './CourseDemo.css'
 
 const CourseDemo = (props) => {
-    const {title,img,Instructor,CourseFee,id}=props.course
+    const {title,img,Instructor,CourseFee,id,duration}=props.course
     return (
         <div>
             <Col>
@@ -15,6 +15,7 @@ const CourseDemo = (props) => {
           <Card.Text>
             <h5>Instructor: {Instructor}</h5>
             <h5>Course Fee: {CourseFee}</h5>
+            <h5>Duration: {duration}</h5>
             <Link to={`/course/${id}`}><button>Course Details</button></Link>
 
 

@@ -2,10 +2,20 @@
     display: flex;
     justify-content: space-evenly;
     color: white;
-    padding: 5px;
     
 }
 ul{
     list-style: none;
     text-align: left;
 }
+.footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .main-wrapper {
+        position: relative;
+        min-height: 100vh;
+       }
+

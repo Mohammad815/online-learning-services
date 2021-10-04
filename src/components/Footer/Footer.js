@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
     return (
 
-        <div className="footer container-fluid mt-3 bg-dark">
+        <div className="container-fluid mt-5 bg-dark">
         <div className='blog'>
             
             <div>
@@ -12,7 +12,7 @@ const Footer = () => {
                     <li><h3>About</h3></li>
                     <li>Contact</li>
                     <li>Service</li>
-                    <li>Team</li>
+                    
                 </ul>
             </div>
             <div>

@@ -14,7 +14,7 @@ const Service = () => {
     },[])
     return (
         <div>
-         <div className="container">
+         <div className="container mt-3">
          <Row xs={1} md={3} className="g-4">
                 {
                     courses.map(course => <Course course={course} key={course.courseId}></Course>)

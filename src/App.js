@@ -13,6 +13,7 @@ import DetailsCourse from './components/DetailsCourse/DetailsCourse';
 function App() {
   return (
     <div className="App">
+      <div className="main-wrapper">
       <Router>
         <Header/>
         <Switch>
@@ -40,7 +41,7 @@ function App() {
         </Switch>
         <Footer></Footer>
       </Router>
-
+      </div>
     </div>
   );
 }
