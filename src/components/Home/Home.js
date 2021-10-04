@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { Button, Row} from 'react-bootstrap';
 import CourseDemo from '../CorseDemo/CourseDemo';
+import HomeHeader from './HomeHeader/HomeHeader';
 
 const Home = () => {
     const [courseDemo,setCourseDemo]=useState([]);
@@ -17,7 +18,8 @@ const Home = () => {
     console.log(courses)
     return (
         <div>
-             <h3>Our Best Online Learning  and Carrier Track Program</h3>
+          
+             <HomeHeader></HomeHeader>
             <div className="container mt-3">
          <Row xs={1} md={2} className="g-4">
             

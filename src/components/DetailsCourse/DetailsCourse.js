@@ -7,7 +7,6 @@ const DetailsCourse = () => {
     const {id} = useParams();
     return (
         <div>
-        
             <h3>{id}</h3>
         </div>
     );

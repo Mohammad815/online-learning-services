@@ -7,11 +7,12 @@ const Header = () => {
         <Navbar bg="dark" variant="dark" className='na'>
         <Container>
             <Nav className="m-auto ">
-                <Stack direction="horizontal" gap={3} className='text-center'>
+                <Stack direction="horizontal" gap={3} className='text-center fs-4 p-3'>
                     <NavLink to="/home"
                         activeStyle={{
+                            fontSize:"1.5rem",
                             fontWeight: "bold",
-                            color: "red"
+                            color: "tomato"
                             
                         }}
                         >
@@ -19,16 +20,18 @@ const Header = () => {
                     </NavLink>
                     <NavLink to="/about"
                         activeStyle={{
+                            fontSize:"1.5rem",
                             fontWeight: "bold",
-                            color: "red"
+                            color: "tomato"
                         }}
                         >
                         About Us
                      </NavLink>
                      <NavLink to="/service"
                         activeStyle={{
+                            fontSize:"1.5rem",
                             fontWeight: "bold",
-                            color: "red"
+                            color: "tomato"
                         }}
                         >
                         Service
