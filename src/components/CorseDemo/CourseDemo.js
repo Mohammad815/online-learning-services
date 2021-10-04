@@ -1,14 +1,15 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import './Course.css'
+import './CourseDemo.css'
 
-const Course = (props) => {
+const CourseDemo = (props) => {
     const {title,img,Instructor,CourseFee,id}=props.course
     return (
-        <Col>
+        <div>
+            <Col>
       <Card>
-        <Card.Img className='img' variant="top" src={img} />
+        <Card.Img className='img-demo' variant="top" src={img} />
         <Card.Body>
           <Card.Title>Course Name : {title}</Card.Title>
           <Card.Text>
@@ -21,7 +22,8 @@ const Course = (props) => {
         </Card.Body>
       </Card>
     </Col>
+        </div>
     );
 };
 
-export default Course;
+export default CourseDemo;
