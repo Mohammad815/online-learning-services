@@ -4,8 +4,8 @@ import './Footer.css'
 const Footer = () => {
     return (
 
-        <div className="container-fluid mt-5 bg-dark">
-        <div className='blog'>
+        <footer className="container-fluid blog mt-5 bg-dark">
+        
             
             <div>
                 <ul>
@@ -36,8 +36,8 @@ const Footer = () => {
                     <li>Reliort</li>
                 </ul>
             </div>
-            </div>
-        </div>
+        
+        </footer>
     );
 };
 
