@@ -1,8 +1,7 @@
 .blog{
     display: flex;
     justify-content: space-evenly;
-    color: white;
-    
+    color: white;  
 }
 ul{
     list-style: none;

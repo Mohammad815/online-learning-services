@@ -16,7 +16,7 @@ const CourseDemo = (props) => {
             <h5>Instructor: {Instructor}</h5>
             <h5>Course Fee: {CourseFee}</h5>
             <h5>Duration: {duration}</h5>
-            <Link to={`/course/${courseId}`}><button>Course Details</button></Link>
+            <Link to={`/course/${courseId}`}><button>Course Information</button></Link>
 
 
           </Card.Text>
